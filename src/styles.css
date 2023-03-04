@@ -1,0 +1,53 @@
+.App {
+  font-family: sans-serif;
+}
+.info {
+  font-size: 18px;
+}
+.restart {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 20px;
+  background-color: #f90c00;
+  border-radius: 10px;
+  margin: 10px 300px;
+}
+.restart:hover {
+  background-color: #d90c00;
+}
+.restart:active {
+  background-color: #c90c00;
+}
+.tile {
+  width: 200px;
+  height: 200px;
+  background-color: #f5f5f5;
+}
+.tile:hover {
+  background-color: #eaeaea;
+}
+.row {
+  display: flex;
+}
+.bt {
+  border-top: 1px #222 solid;
+}
+.bb {
+  border-bottom: 1px #222 solid;
+}
+.bl {
+  border-left: 1px #222 solid;
+}
+.br {
+  border-right: 1px #222 solid;
+}
+.x {
+  background-image: url(/img/x.png);
+  background-size: contain;
+}
+.o {
+  background-image: url(/img/o.png);
+  background-size: contain;
+}
